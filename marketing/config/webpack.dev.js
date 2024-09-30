@@ -22,7 +22,8 @@ const devConfig = {
             filename: 'remoteEntry.js',
             exposes: {
                 './MarketingApp': './src/bootstrap'
-            }
+            },
+            shared: ['react', 'react-dom'],
         }),
     ],
 };
